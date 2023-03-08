@@ -1,0 +1,19 @@
+Instalacion de nodemon
+    npm install -g nodemon
+ejecucion
+    NOMBRE=JUAN nodemon conceptos/entorno.js
+definicion
+    Realiza ejecuciondel codigo cada vez que modificamos y guardamos
+    permite ser mas eficiente al realizar el desarrollo del codigo
+
+instalacion de pm2
+    npm install -g pm2
+ejecucion
+    pm2 start conceptos/entorno.js
+    ...
+    pm2 stop conceptos/entorno.js
+definicion
+    permite realizar monitoreo de la ejecucion del codigo , que
+    hilos estan siendo usados , los log , recomendacion no usar al desarrollar 
+    codigo , solo en produccion
+    
